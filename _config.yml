@@ -1,100 +1,95 @@
 #page title
-page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : Dedupify                                  # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+
+# Site URL (required for sitemap)
+url                                       : https://dedupify.app
 
 # App Info
-ios_app_id                                : 1234793120                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_id                                : 1381180115                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    : https://emilbaehr.com                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Write a short tagline for your app.
+app_name                                  : Dedupify                                  # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_subtitle                              : Smart duplicate photos cleaner
+app_price                                 : " "                                       # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description                           : |
+  Dedupify helps you reclaim storage space by identifying and removing unwanted duplicate photos and calendar events.
+  Group similar images and delete the ones you don't want to keep, freeing up precious space on your device and in the cloud.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
 og_image                                  : assets/og_image.jpg                       # The default open graph image
 
 # Information About Yourself
-your_name                                 : Emil Baehr                                
-your_link                                 : https://emilbaehr.com                     
-your_city                                 : Copenhagen                                
-email_address                             : emil.baehr@gmail.com
+your_name                                 : Foobar Creative
+your_link                                 : https://foobarcreative.com
+your_city                                 : Adelaide, Australia
+email_address                             : support@dedupify.app
 formspree_form_id                         : replaceme                                 # Enter your Formspree form ID here
-linkedin_username                         :                                           
-linkedin_company                          :                                           
-facebook_username                         :                                           
-instagram_username                        : ebaehr
-twitter_username                          : ebaehr
-github_username                           : emilbaehr
+facebook_username                         :
+instagram_username                        :
+twitter_username                          :
+github_username                           :
 youtube_username                          :
-mastodon_link                             : https://mastodon.social/@ebaehr
+mastodon_link                             :
 
 
 
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : GitHub Pages Jekyll Theme
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
-    fontawesome_icon_name                 : magic
-    
-  - title                                 : iPhone Device Preview
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
-    fontawesome_icon_name                 : mobile
+  - title                                 : Duplicate Photo Detection
+    description                           : Automatically identify duplicate and similar photos taken in rapid succession. Easily review and delete unwanted duplicates to reclaim storage space.
+    fontawesome_icon_name                 : images
 
-  - title                                 : Video Support
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
-    fontawesome_icon_name                 : play-circle
+  - title                                 : Calendar Event Cleanup
+    description                           : Find and remove duplicate calendar events with ease. Clean up your calendars by identifying exact copies and redundant entries.
+    fontawesome_icon_name                 : calendar-alt
 
-  - title                                 : Automatic Icon and Metadata
-    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
-    fontawesome_icon_name                 : sync
+  - title                                 : Preview Before Deletion
+    description                           : Review all items before deletion with a clear preview interface. Make informed decisions about what to keep and what to remove.
+    fontawesome_icon_name                 : eye
 
-  - title                                 : Easy to Tweak
-    description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : adjust
-  
-  - title                                 : Feature List
-    description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : star
+  - title                                 : Batch Operations
+    description                           : Delete multiple duplicate photos or calendar events at once. Save time by processing groups of items together instead of one by one.
+    fontawesome_icon_name                 : tasks
 
-  - title                                 : Smart App Banner
-    description                           : Display a smart app banner on iOS devices.
-    fontawesome_icon_name                 : arrow-alt-circle-down
+  - title                                 : Customizable Settings
+    description                           : Adjust time intervals for duplicate photo detection to match your preferences. Fine-tune how the app identifies similar photos.
+    fontawesome_icon_name                 : sliders-h
 
-  - title                                 : Social Links
-    description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : link
-
-  - title                                 : FontAwesome Support
-    description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : info-circle
+  - title                                 : Free Up Space
+    description                           : Reclaim precious storage on your device and in the cloud. Remove duplicate photos and events to keep your iPhone running smoothly.
+    fontawesome_icon_name                 : hdd
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
     fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
 
-
+# Style
+default_primary                           : "#4A90E2"
+dark_primary                              : "#2E5C8A"
+accent                                    : "#50C878"
 
 # Theme Settings
-topbar_color                              : "#000000"
+topbar_color                              : "#4A90E2"
 topbar_transparency                       : 0.1
 topbar_title_color                        : "#ffffff"
 
 cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#363b3d"
-cover_overlay_transparency                : 0.8
+cover_overlay_color                       : "#2E5C8A"
+cover_overlay_transparency                : 0.3
 
-device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+device_color                              : blue                                      # Set to: blue, black, yellow, coral or white.
 
 body_background_color                     : "#ffffff"
 
-link_color                                : "#1d63ea"
+link_color                                : "#4A90E2"
 
 app_title_color                           : "#ffffff"
 app_price_color                           : "#ffffff"
@@ -103,7 +98,7 @@ app_description_color                     : "#ffffff"
 feature_title_color                       : "#000000"
 feature_text_color                        : "#666666"
 
-feature_icons_foreground_color            : "#1d63ea"
+feature_icons_foreground_color            : "#4A90E2"
 feature_icons_background_color            : "#e6e6e6"
 
 social_icons_foreground_color             : "#666666"
@@ -127,6 +122,10 @@ footer_text_color                         : "#666666"
 ### Jekyll Configuration. No need to touch this. ###
 ####################################################
 
+# Site URL for absolute URLs
+url: "https://dedupify.app"
+baseurl: ""
+
 # Set the Sass partials directory, as we're using @imports
 sass:
   style: :compressed # You might prefer to minify using :compressed
@@ -136,6 +135,9 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+include:
+  - ".well-known"
 
 collections:
   pages:
