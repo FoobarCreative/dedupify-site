@@ -1,0 +1,111 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+{% include head.html %}
+
+<body class="subPageBody">
+    <div class="headerBackground subPageHeaderBackground">
+        <div class="container subPageContainer">
+        {% include header.html %}
+            <article class="guide-article page markdown-body">
+                <nav class="breadcrumbs" style="margin-bottom: 1em; color: #666;">
+                    <a href="{{ '/' | relative_url }}">Home</a> ›
+                    <a href="{{ '/guides/' | relative_url }}">Guides</a> ›
+                    {% if page.category %}<a href="{{ '/guides/' | relative_url }}#{{ page.category | slugify }}">{{ page.category }}</a> › {% endif %}
+                    <span>{{ page.short_title | default: page.title }}</span>
+                </nav>
+
+                {% if page.category %}
+                <div class="category-badge" style="display: inline-block; background: {{ site.default_primary }}; color: white; padding: 0.25em 0.75em; border-radius: 4px; font-size: 0.85em; margin-bottom: 1em;">
+                    {{ page.category }}
+                </div>
+                {% endif %}
+
+                <h1>{{ page.title }}</h1>
+
+                {% if page.description %}
+                <p class="lead" style="font-size: 1.2em; color: #555; margin-bottom: 1.5em;">{{ page.description }}</p>
+                {% endif %}
+
+                {% if page.time_required or page.difficulty or page.estimated_savings %}
+                <div class="guide-meta" style="display: flex; gap: 1.5em; margin-bottom: 2em; flex-wrap: wrap; color: #666; font-size: 0.9em;">
+                    {% if page.time_required %}
+                    <span>⏱️ {{ page.time_required }}</span>
+                    {% endif %}
+                    {% if page.difficulty %}
+                    <span>📊 {{ page.difficulty }}</span>
+                    {% endif %}
+                    {% if page.estimated_savings %}
+                    <span style="color: {{ site.accent }}; font-weight: bold;">💾 Save {{ page.estimated_savings }}</span>
+                    {% endif %}
+                </div>
+                {% endif %}
+
+                {% if page.settings_url %}
+                <div style="margin-bottom: 2em;">
+                    <a href="{{ page.settings_url }}" class="btn" style="display: inline-block; background: {{ site.default_primary }}; color: white; padding: 0.75em 1.5em; border-radius: 8px; text-decoration: none; font-weight: bold;">
+                        Open Settings →
+                    </a>
+                    <p style="font-size: 0.85em; color: #888; margin-top: 0.5em;">Or follow the steps below manually</p>
+                </div>
+                {% endif %}
+
+                {{ content }}
+
+                {% if page.related and page.related.size > 0 %}
+                <hr style="margin: 3em 0;">
+                <h2>Related Guides</h2>
+                <div class="related-guides" style="display: grid; gap: 1em; margin-top: 1.5em;">
+                    {% for guide_id in page.related %}
+                        {% assign guide = site.guides | where: "item_id", guide_id | first %}
+                        {% if guide %}
+                        <a href="{{ guide.url | relative_url }}" style="display: block; padding: 1em; background: #f5f5f5; border-radius: 8px; text-decoration: none; color: inherit; border-left: 4px solid {{ site.default_primary }};">
+                            <strong style="color: {{ site.default_primary }};">{{ guide.short_title | default: guide.title }}</strong>
+                            <p style="margin: 0.5em 0 0 0; font-size: 0.9em; color: #666;">{{ guide.description | truncate: 120 }}</p>
+                        </a>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+                {% endif %}
+
+                <hr style="margin: 3em 0;">
+
+                <div class="app-cta" style="background: linear-gradient(135deg, {{ site.default_primary }} 0%, {{ site.dark_primary }} 100%); color: white; padding: 2em; border-radius: 12px; text-align: center;">
+                    <h2 style="color: white; margin-top: 0;">Clean Up Duplicate Photos Automatically</h2>
+                    <p style="margin-bottom: 1.5em;">After optimizing your settings, use Dedupify to find and remove duplicate photos.</p>
+                    <a href="{{ site.appstore_link }}" style="display: inline-block; background: white; color: {{ site.default_primary }}; padding: 0.75em 2em; border-radius: 8px; text-decoration: none; font-weight: bold;">
+                        Download Dedupify
+                    </a>
+                </div>
+
+                <footer class="guide-footer" style="margin-top: 3em; padding-top: 2em; border-top: 1px solid #e0e0e0; font-size: 0.85em; color: #888;">
+                    <p>
+                        <strong>Was this guide helpful?</strong>
+                        <a href="mailto:{{ site.email_address }}?subject=Feedback: {{ page.title }}" style="color: {{ site.link_color }};">Send feedback</a>
+                    </p>
+
+                    {% if page.date %}
+                    <p>
+                        Published: {{ page.date | date: "%B %d, %Y" }}
+                        {% if page.last_updated and page.last_updated != page.date %}
+                        | Updated: {{ page.last_updated | date: "%B %d, %Y" }}
+                        {% endif %}
+                    </p>
+                    {% endif %}
+
+                    {% if page.item_id %}
+                    <p>Article ID: {{ page.item_id | upcase }} | © {{ 'now' | date: "%Y" }} Dedupify</p>
+                    {% endif %}
+                </footer>
+
+            </article>
+        </div>
+        {% include appstoreimages.html %}
+    </div>
+</body>
+
+</html>

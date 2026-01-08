@@ -1,0 +1,163 @@
+---
+layout: page
+title: Guides
+permalink: /guides/
+include_in_header: true
+description: "Free guides to help you optimize your iPhone and iPad - free up storage, extend battery life, and improve performance."
+---
+
+<div class="guides-hub" style="max-width: 1000px; margin: 0 auto;">
+
+  <header style="text-align: center; margin-bottom: 3em;">
+    <h1 style="font-size: 2.5em; margin-bottom: 0.5em;">iPhone & iPad Guides</h1>
+    <p style="font-size: 1.2em; color: #666; max-width: 600px; margin: 0 auto;">
+      Free step-by-step guides to optimize your device, free up storage, and improve performance.
+    </p>
+  </header>
+
+  <!-- Storage Optimization Section -->
+  <section style="margin-bottom: 4em;">
+    <h2 style="display: flex; align-items: center; gap: 0.5em; margin-bottom: 1.5em; color: {{ site.default_primary }};">
+      <span style="font-size: 1.5em;">💾</span>
+      Storage Optimization
+    </h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5em;">
+      {% assign storage_guides = site.guides | where: "category", "Storage Optimization" | sort: "priority" %}
+      {% for guide in storage_guides %}
+        <a href="{{ guide.url | relative_url }}" target="_self" style="display: block; padding: 1.5em; background: #f8f9fa; border-radius: 12px; text-decoration: none; color: inherit; border: 2px solid transparent; transition: all 0.2s;">
+          <div style="display: flex; align-items: flex-start; gap: 1em; margin-bottom: 1em;">
+            <div style="font-size: 2em;">📱</div>
+            <div style="flex: 1;">
+              <h3 style="margin: 0 0 0.5em 0; color: {{ site.default_primary }}; font-size: 1.1em;">{{ guide.short_title | default: guide.title }}</h3>
+              <p style="margin: 0; font-size: 0.9em; color: #666; line-height: 1.5;">{{ guide.description }}</p>
+            </div>
+          </div>
+          <div style="display: flex; gap: 1em; flex-wrap: wrap; font-size: 0.85em; color: #888;">
+            {% if guide.time_required %}
+            <span>⏱️ {{ guide.time_required }}</span>
+            {% endif %}
+            {% if guide.estimated_savings %}
+            <span style="color: {{ site.accent }}; font-weight: bold;">💾 Save {{ guide.estimated_savings }}</span>
+            {% endif %}
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- Battery & Power Section -->
+  {% assign battery_guides = site.guides | where: "category", "Battery & Power" | sort: "priority" %}
+  {% if battery_guides.size > 0 %}
+  <section style="margin-bottom: 4em;">
+    <h2 style="display: flex; align-items: center; gap: 0.5em; margin-bottom: 1.5em; color: {{ site.default_primary }};">
+      <span style="font-size: 1.5em;">🔋</span>
+      Battery & Power
+    </h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5em;">
+      {% for guide in battery_guides %}
+        <a href="{{ guide.url | relative_url }}" target="_self" style="display: block; padding: 1.5em; background: #f8f9fa; border-radius: 12px; text-decoration: none; color: inherit; border: 2px solid transparent; transition: all 0.2s;">
+          <div style="display: flex; align-items: flex-start; gap: 1em; margin-bottom: 1em;">
+            <div style="font-size: 2em;">🔋</div>
+            <div style="flex: 1;">
+              <h3 style="margin: 0 0 0.5em 0; color: {{ site.default_primary }}; font-size: 1.1em;">{{ guide.short_title | default: guide.title }}</h3>
+              <p style="margin: 0; font-size: 0.9em; color: #666; line-height: 1.5;">{{ guide.description }}</p>
+            </div>
+          </div>
+          <div style="display: flex; gap: 1em; flex-wrap: wrap; font-size: 0.85em; color: #888;">
+            {% if guide.time_required %}
+            <span>⏱️ {{ guide.time_required }}</span>
+            {% endif %}
+            {% if guide.difficulty %}
+            <span>📊 {{ guide.difficulty }}</span>
+            {% endif %}
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  <!-- Camera & Media Section -->
+  {% assign camera_guides = site.guides | where: "category", "Camera & Media" | sort: "priority" %}
+  {% if camera_guides.size > 0 %}
+  <section style="margin-bottom: 4em;">
+    <h2 style="display: flex; align-items: center; gap: 0.5em; margin-bottom: 1.5em; color: {{ site.default_primary }};">
+      <span style="font-size: 1.5em;">📷</span>
+      Camera & Media
+    </h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5em;">
+      {% for guide in camera_guides %}
+        <a href="{{ guide.url | relative_url }}" target="_self" style="display: block; padding: 1.5em; background: #f8f9fa; border-radius: 12px; text-decoration: none; color: inherit; border: 2px solid transparent; transition: all 0.2s;">
+          <div style="display: flex; align-items: flex-start; gap: 1em; margin-bottom: 1em;">
+            <div style="font-size: 2em;">📷</div>
+            <div style="flex: 1;">
+              <h3 style="margin: 0 0 0.5em 0; color: {{ site.default_primary }}; font-size: 1.1em;">{{ guide.short_title | default: guide.title }}</h3>
+              <p style="margin: 0; font-size: 0.9em; color: #666; line-height: 1.5;">{{ guide.description }}</p>
+            </div>
+          </div>
+          <div style="display: flex; gap: 1em; flex-wrap: wrap; font-size: 0.85em; color: #888;">
+            {% if guide.time_required %}
+            <span>⏱️ {{ guide.time_required }}</span>
+            {% endif %}
+            {% if guide.difficulty %}
+            <span>📊 {{ guide.difficulty }}</span>
+            {% endif %}
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  <!-- Performance Section -->
+  {% assign performance_guides = site.guides | where: "category", "Performance" | sort: "priority" %}
+  {% if performance_guides.size > 0 %}
+  <section style="margin-bottom: 4em;">
+    <h2 style="display: flex; align-items: center; gap: 0.5em; margin-bottom: 1.5em; color: {{ site.default_primary }};">
+      <span style="font-size: 1.5em;">⚡</span>
+      Performance
+    </h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5em;">
+      {% for guide in performance_guides %}
+        <a href="{{ guide.url | relative_url }}" target="_self" style="display: block; padding: 1.5em; background: #f8f9fa; border-radius: 12px; text-decoration: none; color: inherit; border: 2px solid transparent; transition: all 0.2s;">
+          <div style="display: flex; align-items: flex-start; gap: 1em; margin-bottom: 1em;">
+            <div style="font-size: 2em;">⚡</div>
+            <div style="flex: 1;">
+              <h3 style="margin: 0 0 0.5em 0; color: {{ site.default_primary }}; font-size: 1.1em;">{{ guide.short_title | default: guide.title }}</h3>
+              <p style="margin: 0; font-size: 0.9em; color: #666; line-height: 1.5;">{{ guide.description }}</p>
+            </div>
+          </div>
+          <div style="display: flex; gap: 1em; flex-wrap: wrap; font-size: 0.85em; color: #888;">
+            {% if guide.time_required %}
+            <span>⏱️ {{ guide.time_required }}</span>
+            {% endif %}
+            {% if guide.difficulty %}
+            <span>📊 {{ guide.difficulty }}</span>
+            {% endif %}
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  <!-- App CTA -->
+  <section style="background: linear-gradient(135deg, {{ site.default_primary }} 0%, {{ site.dark_primary }} 100%); color: white; padding: 3em 2em; border-radius: 16px; text-align: center; margin-top: 4em;">
+    <h2 style="color: white; margin-top: 0; font-size: 2em;">Clean Up Duplicate Photos Automatically</h2>
+    <p style="font-size: 1.1em; margin-bottom: 2em; opacity: 0.95;">
+      After optimizing your device, use Dedupify to find and remove duplicate photos in seconds.
+    </p>
+    <a href="{{ site.appstore_link }}" style="display: inline-block; background: white; color: {{ site.default_primary }}; padding: 1em 2.5em; border-radius: 10px; text-decoration: none; font-weight: bold; font-size: 1.1em; transition: transform 0.2s;">
+      Download Dedupify
+    </a>
+  </section>
+
+</div>
+
+<style>
+  .guides-hub a:hover {
+    border-color: {{ site.default_primary }} !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+  }
+</style>

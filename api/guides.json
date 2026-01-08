@@ -1,0 +1,76 @@
+---
+layout: null
+---
+{
+  "guides": [
+    {% for guide in site.guides %}
+    {
+      "id": "{{ guide.item_id }}",
+      "slug": "{{ guide.slug }}",
+      "title": "{{ guide.short_title | default: guide.title | escape }}",
+      "fullTitle": "{{ guide.title | escape }}",
+      "description": "{{ guide.description | escape }}",
+      "category": "{{ guide.category }}",
+      "webURL": "{{ site.url }}{{ guide.url }}",
+      "settingsURL": "{{ guide.settings_url }}",
+      "priority": {{ guide.priority | default: 999 }},
+      "estimatedSavings": "{{ guide.estimated_savings }}",
+      "difficulty": "{{ guide.difficulty }}",
+      "timeRequired": "{{ guide.time_required }}",
+      "iosVersion": "{{ guide.ios_version }}",
+      "lastUpdated": "{{ guide.last_updated | date_to_xmlschema }}",
+      "relatedGuides": [
+        {% if guide.related %}
+          {% for related_id in guide.related %}
+            "{{ related_id }}"{% unless forloop.last %},{% endunless %}
+          {% endfor %}
+        {% endif %}
+      ]
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  "categories": [
+    {
+      "name": "Storage Optimization",
+      "icon": "💾",
+      "guides": [
+        {% assign storage_guides = site.guides | where: "category", "Storage Optimization" %}
+        {% for guide in storage_guides %}
+          "{{ guide.item_id }}"{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]
+    },
+    {
+      "name": "Battery & Power",
+      "icon": "🔋",
+      "guides": [
+        {% assign battery_guides = site.guides | where: "category", "Battery & Power" %}
+        {% for guide in battery_guides %}
+          "{{ guide.item_id }}"{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]
+    },
+    {
+      "name": "Camera & Media",
+      "icon": "📷",
+      "guides": [
+        {% assign camera_guides = site.guides | where: "category", "Camera & Media" %}
+        {% for guide in camera_guides %}
+          "{{ guide.item_id }}"{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]
+    },
+    {
+      "name": "Performance",
+      "icon": "⚡",
+      "guides": [
+        {% assign performance_guides = site.guides | where: "category", "Performance" %}
+        {% for guide in performance_guides %}
+          "{{ guide.item_id }}"{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]
+    }
+  ],
+  "lastUpdated": "{{ site.time | date_to_xmlschema }}",
+  "version": "1.0"
+}
