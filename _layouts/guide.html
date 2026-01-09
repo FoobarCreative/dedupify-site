@@ -63,7 +63,7 @@
                     {% for guide_id in page.related %}
                         {% assign guide = site.guides | where: "item_id", guide_id | first %}
                         {% if guide %}
-                        <a href="{{ guide.url | relative_url }}" style="display: block; padding: 1em; background: #f5f5f5; border-radius: 8px; text-decoration: none; color: inherit; border-left: 4px solid {{ site.default_primary }};">
+                        <a href="{{ guide.url | relative_url }}" target="_self" style="display: block; padding: 1em; background: #f5f5f5; border-radius: 8px; text-decoration: none; color: inherit; border-left: 4px solid {{ site.default_primary }};">
                             <strong style="color: {{ site.default_primary }};">{{ guide.short_title | default: guide.title }}</strong>
                             <p style="margin: 0.5em 0 0 0; font-size: 0.9em; color: #666;">{{ guide.description | truncate: 120 }}</p>
                         </a>
