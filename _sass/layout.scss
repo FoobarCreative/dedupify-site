@@ -777,19 +777,47 @@ textarea.form-control {
 	border-radius: 8px;
 	cursor: pointer;
 	transition: all 0.3s ease;
-	
+
 	&.btn-dark {
 		background-color: #333;
 		color: #fff;
-		
+
 		&:hover {
 			background-color: #555;
 			transform: translateY(-2px);
 			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 		}
-		
+
 		&:active {
 			transform: translateY(0);
 		}
+	}
+}
+
+// In-app view styles - hide elements when viewed in mobile app
+.in-app-view {
+	.headerBackground {
+		height: 0 !important;
+		min-height: 0 !important;
+	}
+
+	.subPageContainer {
+		padding-top: 20px;
+	}
+
+	header {
+		display: none !important;
+	}
+
+	.breadcrumbs {
+		display: none !important;
+	}
+
+	.app-cta {
+		display: none !important;
+	}
+
+	.guide-footer {
+		display: none !important;
 	}
 }
