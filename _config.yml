@@ -135,6 +135,7 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - _pages/changelog.md
 
 include:
   - ".well-known"
