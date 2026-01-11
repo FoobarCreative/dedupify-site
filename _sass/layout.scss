@@ -813,6 +813,27 @@ textarea.form-control {
 		display: none !important;
 	}
 
+	// Hide related guides section including header and separators
+	.related-guides {
+		display: none !important;
+	}
+
+	// Hide "Related Guides" h2 header that comes before .related-guides
+	.guide-article h2:has(+ .related-guides) {
+		display: none !important;
+	}
+
+	// Hide hr separator that comes before the "Related Guides" h2
+	.guide-article hr:has(+ h2 + .related-guides) {
+		display: none !important;
+	}
+
+	// Hide hr separator after related guides (before app-cta)
+	.guide-article .related-guides + hr,
+	.guide-article hr + .app-cta {
+		display: none !important;
+	}
+
 	.app-cta {
 		display: none !important;
 	}
