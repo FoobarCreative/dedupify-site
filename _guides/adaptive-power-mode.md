@@ -41,6 +41,8 @@ Optimized Battery Charging learns your daily charging routine and waits to finis
 
 Tap **Settings** on your home screen.
 
+![iOS Settings main screen](/assets/guides/adaptive-power-mode/ios_settings_example.png)
+
 ### 2. Go to Battery
 
 Tap **Battery**.

@@ -842,3 +842,13 @@ textarea.form-control {
 		display: none !important;
 	}
 }
+
+// Guide screenshot images
+.guide-article.markdown-body img {
+	max-width: 414px;
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: 1.5em auto;
+	border-radius: 8px;
+}
