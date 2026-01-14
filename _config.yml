@@ -13,9 +13,9 @@ playstore_link                            :                                     
 presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_icon                                  : assets/appicon512.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : Dedupify                                  # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_subtitle                              : Smart duplicate photos cleaner
+app_subtitle                              : Duplicate photos and storage cleaner app
 app_price                                 : " "                                       # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description                           : |
   Dedupify helps you reclaim storage space by identifying and removing unwanted duplicate photos and calendar events.
