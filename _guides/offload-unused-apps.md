@@ -40,14 +40,17 @@ Let iOS automatically offload apps you don't use:
 ### 1. Open Settings
 
 Tap **Settings** on your home screen.
+![Settings icon on home screen](/assets/guides/ios_settings_example.png)
 
 ### 2. Go to App Store
 
 Scroll down and tap **App Store**.
+![App Store in Settings](/assets/guides/offload-unused-apps/app-store.jpg)
 
 ### 3. Enable Offload Unused Apps
 
 Toggle on **Offload Unused Apps**.
+![Offload Unused Apps toggle](/assets/guides/offload-unused-apps/offload-unused-apps.jpg)
 
 ✅ **Done!** iOS will automatically offload apps when storage is low.
 
@@ -58,22 +61,27 @@ Offload specific apps manually:
 ### 1. Open Settings
 
 Tap **Settings** on your home screen.
+![Settings icon on home screen](/assets/guides/ios_settings_example.png)
 
 ### 2. Go to General
 
 Tap **General**.
+![General settings screen](/assets/guides/offload-unused-apps/general.jpg)
 
 ### 3. Tap iPhone Storage
 
 Tap **iPhone Storage** (or **iPad Storage** on iPad).
+![iPhone Storage screen](/assets/guides/offload-unused-apps/iphone-storage.jpg)
 
 ### 4. Select an App
 
 Scroll through your apps and tap one to see details.
+![App list in iPhone Storage](/assets/guides/offload-unused-apps/app.jpg)
 
 ### 5. Offload the App
 
 Tap **Offload App** and confirm.
+![Offload App option](/assets/guides/offload-unused-apps/offload-app.jpg
 
 ## Which Apps Should You Offload?
 

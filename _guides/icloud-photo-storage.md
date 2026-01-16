@@ -37,22 +37,28 @@ Every photo you take in full resolution can be 3-5MB. With thousands of photos, 
 ### 1. Open Settings App
 
 Tap the **Settings** icon on your home screen.
+![Settings icon on home screen](/assets/guides/ios_settings_example.png)
 
 ### 2. Tap Your Name
 
 At the top of Settings, tap your name to access Apple ID settings.
+![Apple ID settings screen](/assets/guides/icloud-photo-storage/apple-id.png)
 
 ### 3. Select iCloud
 
 Tap **iCloud** from the menu.
+![iCloud settings screen](/assets/guides/icloud-photo-storage/icloud.png)
 
 ### 4. Tap Photos
 
 Find and tap **Photos** in the list of apps using iCloud.
+![Photos settings screen](/assets/guides/icloud-photo-storage/photos.png)
 
 ### 5. Enable Optimize iPhone Storage
 
 Toggle on **Optimize iPhone Storage** (or **Optimize iPad Storage** on iPad).
+![Optimize iPhone Storage toggle](/assets/guides/icloud-photo-storage/optimize-iphone-storage.png)
+
 
 ✅ **Done!** Your device will now automatically manage photo storage.
 
