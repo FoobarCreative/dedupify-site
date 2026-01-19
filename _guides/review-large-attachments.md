@@ -41,16 +41,19 @@ These files pile up and consume significant storage without you realizing it.
 ### 1. Open Settings
 
 Tap **Settings** on your home screen.
+![Settings icon on home screen](/assets/guides/ios_settings_example.png)
 
 ### 2. Go to General
 
 Tap **General**.
+![General settings screen](/assets/guides/review-large-attachments/general.jpg)
 
 ### 3. Tap iPhone Storage
 
 Tap **iPhone Storage** (or **iPad Storage** on iPad).
 
 Wait a moment for storage to calculate.
+![iPhone Storage screen](/assets/guides/review-large-attachments/iphone-storage.jpg)
 
 ### 4. Review Recommendations
 
@@ -61,6 +64,7 @@ Scroll down to see recommendations. Look for:
 ### 5. Tap Review Large Attachments
 
 Tap the recommendation to see all large files.
+![Review Large Attachments screen](/assets/guides/review-large-attachments/review-large-attachments.png)
 
 ### 6. Delete Unwanted Files
 
@@ -68,6 +72,8 @@ You'll see files sorted by size. For each one:
 - Tap **Edit** in the top right
 - Select files you want to delete
 - Tap **Delete** at the bottom
+![Delete large files screen](/assets/guides/review-large-attachments/edit.png)
+![Delete large files screen](/assets/guides/review-large-attachments/delete.png)
 
 ## What You'll Find
 

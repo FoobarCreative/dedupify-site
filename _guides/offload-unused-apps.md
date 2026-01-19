@@ -81,7 +81,7 @@ Scroll through your apps and tap one to see details.
 ### 5. Offload the App
 
 Tap **Offload App** and confirm.
-![Offload App option](/assets/guides/offload-unused-apps/offload-app.jpg
+![Offload App option](/assets/guides/offload-unused-apps/offload-app.jpg)
 
 ## Which Apps Should You Offload?
 

@@ -41,20 +41,24 @@ Over time, this data accumulates and can consume several gigabytes of storage.
 ### 1. Open Settings
 
 Tap **Settings** on your home screen.
+![Settings icon on home screen](/assets/guides/ios_settings_example.png)
 
 ### 2. Scroll to Safari
 
 Scroll down and tap **Safari**.
+![Safari in Settings list](/assets/guides/clear-safari-cache/safari.png)
 
 ### 3. Clear History and Website Data
 
 Scroll down and tap **Clear History and Website Data**.
+![Clear History and Website Data option](/assets/guides/clear-safari-cache/clear-history-and-website-data.png)
 
 ### 4. Confirm
 
 Tap **Clear History and Data** in the popup.
 
 ✅ **Done!** Safari cache is cleared.
+![Confirm clear history popup](/assets/guides/clear-safari-cache/clear-history.png)
 
 ## What Gets Deleted
 
@@ -80,16 +84,20 @@ If you want to keep your browsing history but clear cached files:
 ### 1. Settings → Safari
 
 Go to **Settings** → **Safari**.
+![Safari in Settings](/assets/guides/clear-safari-cache/safari.png)
 
 ### 2. Advanced → Website Data
 
 Tap **Advanced** → **Website Data**.
+![Advanced and Website Data screen](/assets/guides/clear-safari-cache/advanced.png)
+![Advanced and Website Data screen](/assets/guides/clear-safari-cache/website-data.png)
 
 ### 3. Remove All Website Data
 
 Tap **Remove All Website Data** at the bottom.
 
 This clears cached files but keeps your browsing history.
+![Remove All Website Data option](/assets/guides/clear-safari-cache/remove-all-website-data.png)
 
 ## How Much Space Will I Save?
 
