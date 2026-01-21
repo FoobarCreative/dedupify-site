@@ -41,19 +41,22 @@ Optimized Battery Charging learns your daily charging routine and waits to finis
 
 Tap **Settings** on your home screen.
 
-![iOS Settings main screen](/assets/guides/adaptive-power-mode/ios_settings_example.png)
+![Settings icon on home screen](/assets/guides/ios_settings_example.png)
 
 ### 2. Go to Battery
 
 Tap **Battery**.
+![Battery settings screen](/assets/guides/adaptive-power-mode/battery.png)
 
 ### 3. Tap Battery Health & Charging
 
 Tap **Battery Health & Charging** (or **Battery Health** on older iOS versions).
+![Battery Health and Charging screen](/assets/guides/adaptive-power-mode/battery-health.png)
 
 ### 4. Enable Optimized Battery Charging
 
 Toggle on **Optimized Battery Charging**.
+![Optimized Battery Charging toggle](/assets/guides/adaptive-power-mode/optimized-battery-charging.png)
 
 ✅ **Done!** Your iPhone will now learn your charging patterns.
 

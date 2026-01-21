@@ -71,7 +71,7 @@ Tap the recommendation to see all large files.
 You'll see files sorted by size. For each one:
 - Tap **Edit** in the top right
 - Select files you want to delete
-- Tap **Delete** at the bottom
+- Tap **Delete**
 ![Delete large files screen](/assets/guides/review-large-attachments/edit.png)
 ![Delete large files screen](/assets/guides/review-large-attachments/delete.png)
 

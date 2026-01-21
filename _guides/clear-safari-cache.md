@@ -55,10 +55,10 @@ Scroll down and tap **Clear History and Website Data**.
 
 ### 4. Confirm
 
-Tap **Clear History and Data** in the popup.
+Tap **Clear History** in the popup.
+![Confirm clear history popup](/assets/guides/clear-safari-cache/clear-history.png)
 
 ✅ **Done!** Safari cache is cleared.
-![Confirm clear history popup](/assets/guides/clear-safari-cache/clear-history.png)
 
 ## What Gets Deleted
 

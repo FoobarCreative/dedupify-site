@@ -36,22 +36,23 @@ Empty the Recently Deleted album to reclaim storage immediately.
 ### 1. Open the Photos App
 
 Tap the **Photos** icon on your home screen.
+![Photos app on home screen](/assets/guides/clear-recently-deleted/photos.png)
 
-### 2. Go to Albums
-
-Tap the **Albums** tab at the bottom.
-
-### 3. Scroll to Recently Deleted
+### 2. Scroll to Recently Deleted
 
 Scroll down to the **Utilities** section and tap **Recently Deleted**.
+![Recently Deleted in Utilities](/assets/guides/clear-recently-deleted/recently-deleted.png)
 
-### 4. Empty the Album
+### 3. Empty the Album
 
 Tap **Select** in the top right, then tap **Delete All** in the bottom left.
+![Delete All in Recently Deleted](/assets/guides/clear-recently-deleted/select.png)
+![Delete All in Recently Deleted](/assets/guides/clear-recently-deleted/delete-all.png)
 
-### 5. Confirm Deletion
+### 4. Confirm Deletion
 
-Tap **Delete [X] Photos** to permanently remove them.
+Tap **Delete From All Devices** to permanently remove them.
+![Confirm delete photos popup](/assets/guides/clear-recently-deleted/delete-from-all-devices.png)
 
 ✅ **Done!** Storage is freed up immediately.
 
