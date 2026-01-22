@@ -40,14 +40,17 @@ Low Power Mode temporarily reduces power consumption by:
 #### 1. Open Settings
 
 Tap **Settings** on your home screen.
+![Settings icon on home screen](/assets/guides/ios_settings_example.png)
 
 #### 2. Go to Battery
 
 Tap **Battery**.
+![Battery settings screen](/assets/guides/low-power-mode/battery.png)
 
 #### 3. Enable Low Power Mode
 
 Toggle on **Low Power Mode**.
+![Low Power Mode toggle](/assets/guides/low-power-mode/low-power-mode.png)
 
 ✅ **Done!** Your device is now in Low Power Mode.
 
@@ -58,10 +61,13 @@ Toggle on **Low Power Mode**.
 - **iPhone with Face ID**: Swipe down from top-right corner
 - **iPhone with Home button**: Swipe up from bottom
 - **iPad**: Swipe down from top-right corner
+![Open Control Center gesture](/assets/guides/low-power-mode/control-center.png)
+
 
 #### 2. Tap Battery Icon
 
 Tap the **battery icon** to toggle Low Power Mode on/off.
+![Battery icon in Control Center](/assets/guides/low-power-mode/battery-icon.png)
 
 ### Method 3: Automatic Prompt
 
