@@ -35,18 +35,22 @@ Background App Refresh allows apps to update their content when you're not using
 #### 1. Open Settings
 
 Tap **Settings** on your home screen.
+![Settings icon on home screen](/assets/guides/ios_settings_example.png)
 
 #### 2. Go to General
 
 Tap **General**.
+![General settings screen](/assets/guides/background-app-refresh/general.jpg)
 
 #### 3. Tap Background App Refresh
 
 Tap **Background App Refresh**.
+![Background App Refresh menu](/assets/guides/background-app-refresh/background-app-refresh.png)
 
 #### 4. Choose Apps to Disable
 
 Scroll through the list and toggle off apps you don't need to update in the background.
+![Background App Refresh app list](/assets/guides/background-app-refresh/toggle.png)
 
 ✅ **Done!** Selected apps will no longer refresh in the background.
 
@@ -57,10 +61,12 @@ If you want maximum battery savings:
 #### 1. Follow steps 1-3 above
 
 #### 2. Tap Background App Refresh at the top
+![Background App Refresh options](/assets/guides/background-app-refresh/option.png)
 
 #### 3. Select Off
 
 Choose **Off** to disable for all apps.
+![Background App Refresh off option](/assets/guides/background-app-refresh/off.png)
 
 ## Which Apps Should You Disable?
 
