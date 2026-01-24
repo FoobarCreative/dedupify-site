@@ -38,10 +38,12 @@ The display is the biggest battery drain on your device. Reducing brightness can
 - **iPhone with Face ID**: Swipe down from top-right corner
 - **iPhone with Home button**: Swipe up from bottom
 - **iPad**: Swipe down from top-right corner
+![Open Control Center gesture](/assets/guides/reduce-display-brightness/control-center.png)
 
 #### 2. Adjust Brightness Slider
 
 Drag the **brightness slider** (sun icon) up or down.
+![Brightness slider in Control Center](/assets/guides/reduce-display-brightness/brightness.png)
 
 ✅ **Done!** Brightness adjusted instantly.
 
@@ -54,18 +56,22 @@ Let your device automatically adjust brightness based on lighting conditions.
 #### 1. Open Settings
 
 Tap **Settings** on your home screen.
+![Settings icon on home screen](/assets/guides/ios_settings_example.png)
 
 #### 2. Go to Accessibility
 
 Tap **Accessibility**.
+![Accessibility settings screen](/assets/guides/reduce-display-brightness/accessibility.png)
 
 #### 3. Tap Display & Text Size
 
 Tap **Display & Text Size**.
+![Display and Text Size screen](/assets/guides/reduce-display-brightness/display-and-text.png)
 
 #### 4. Enable Auto-Brightness
 
 Scroll down and toggle on **Auto-Brightness**.
+![Auto-Brightness toggle](/assets/guides/reduce-display-brightness/auto-brightness.png)
 
 ✅ **Done!** Your device will now adjust brightness automatically.
 
@@ -76,10 +82,12 @@ Adjusts colors based on ambient light for better viewing comfort.
 #### 1. Open Settings
 
 Tap **Settings** > **Display & Brightness**.
+![Display and Brightness settings](/assets/guides/reduce-display-brightness/display-and-brightness.png)
 
 #### 2. Enable True Tone
 
 Toggle on **True Tone**.
+![True Tone toggle](/assets/guides/reduce-display-brightness/true-tone.png)
 
 ### Enable Night Shift
 
@@ -88,15 +96,18 @@ Reduces blue light at night for better sleep.
 #### 1. Open Settings
 
 Tap **Settings** > **Display & Brightness**.
+![Display and Brightness settings](/assets/guides/reduce-display-brightness/display-and-brightness.png)
 
 #### 2. Tap Night Shift
 
 Tap **Night Shift**.
+![Night Shift menu](/assets/guides/reduce-display-brightness/night-shift.png)
 
 #### 3. Schedule Night Shift
 
 - Toggle on **Scheduled**
 - Choose **Sunset to Sunrise** or **Custom Schedule**
+![Night Shift schedule options](/assets/guides/reduce-display-brightness/scheduled.png)
 
 ## Optimal Brightness Levels
 
@@ -141,10 +152,12 @@ On devices with OLED displays (iPhone X and later):
 #### 1. Open Settings
 
 Tap **Settings** > **Display & Brightness**.
+![Display and Brightness appearance](/assets/guides/reduce-display-brightness/display-and-brightness.png)
 
 #### 2. Select Dark
 
 Tap **Dark** under Appearance.
+![Dark mode selected](/assets/guides/reduce-display-brightness/dark-mode.png)
 
 **Additional battery savings:** 10-15% on OLED displays
 

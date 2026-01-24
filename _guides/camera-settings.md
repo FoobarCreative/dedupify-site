@@ -35,16 +35,20 @@ Camera settings affect:
 ### 1. Open Settings
 
 Tap **Settings** on your home screen.
+![Settings icon on home screen](/assets/guides/ios_settings_example.png)
 
 ### 2. Go to Camera
 
 Scroll down and tap **Camera**.
+![Camera settings option](/assets/guides/camera-settings/camera.png)
+
 
 ### 3. Review These Key Settings
 
 #### Formats
 
 Tap **Formats** and choose:
+![Camera formats screen](/assets/guides/camera-settings/formats.png)
 
 **High Efficiency (Recommended)**
 - Uses HEIF for photos, HEVC for videos
@@ -56,21 +60,29 @@ Tap **Formats** and choose:
 - Uses JPEG for photos, H.264 for videos
 - Larger files
 - Better compatibility with older devices
+![Camera formats screen](/assets/guides/camera-settings/most-compatible.png)
 
 #### Preserve Settings
+
+Tap **Preserve Settings**.  
+![Preserve Camera Settings screen](/assets/guides/camera-settings/preserve-settings.png)
+
 
 Toggle on settings you want to remember:
 - **Camera Mode** - Remembers Photo, Video, Portrait, etc.
 - **Creative Controls** - Saves exposure, filters
 - **Live Photo** - Keeps Live Photo on/off preference
+![Preserve Camera Settings screen](/assets/guides/camera-settings/preserve-settings-screen.png)
 
 #### Grid
 
 Toggle on **Grid** for better composition using rule of thirds.
+![Camera grid toggle](/assets/guides/camera-settings/grid.png)
 
 #### Scan QR Codes
 
 Toggle on **Scan QR Codes** to automatically detect QR codes.
+![Scan QR Codes toggle](/assets/guides/camera-settings/scan-qr-codes.png)
 
 ## Recommended Settings for Most Users
 
@@ -142,7 +154,11 @@ Live Photos capture 1.5 seconds before and after each photo.
 
 **Optimize:**
 1. Settings > Camera > Preserve Settings
+![Preserve Camera Settings screen](/assets/guides/camera-settings/preserve-settings.png)
+
 2. Toggle off **Live Photo** to start with it disabled
+![Live Photo Toggle](/assets/guides/camera-settings/live-photo.png)
+
 3. Enable Live Photo manually for special moments
 
 ## Works on iPhone and iPad
