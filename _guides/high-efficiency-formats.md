@@ -47,18 +47,22 @@ High Efficiency formats (HEIF for photos, HEVC for videos) provide:
 ### 1. Open Settings
 
 Tap **Settings** on your home screen.
+![Settings icon on home screen](/assets/guides/ios_settings_example.png)
 
 ### 2. Go to Camera
 
 Scroll down and tap **Camera**.
+![Camera settings option](/assets/guides/high-efficiency-formats/camera.png)
 
 ### 3. Tap Formats
 
 Tap **Formats** near the top.
+![Camera formats screen](/assets/guides/high-efficiency-formats/formats.png)
 
 ### 4. Select High Efficiency
 
 Tap **High Efficiency**.
+![Formats Screen](/assets/guides/high-efficiency-formats/high-efficiency.png)
 
 ✅ **Done!** New photos and videos will use efficient formats.
 
@@ -148,15 +152,23 @@ Professional photographers and Apple engineers designed these formats to maintai
 
 **For a photo:**
 1. Open Photos app
+![Photos app on home screen](/assets/guides/high-efficiency-formats/photos.png)
 2. Select a photo
+![Selected photo view](/assets/guides/high-efficiency-formats/select-photo.png)
 3. Swipe up
+![Swipe up gesture on photo](/assets/guides/high-efficiency-formats/swipe-up-photo.png)
 4. Look at file format info
+![Photo file format info](/assets/guides/high-efficiency-formats/format-info.png)
 
 **For a video:**
 1. Open Photos app
+![Photos app on home screen](/assets/guides/high-efficiency-formats/photos.png)
 2. Select a video
+![Selected video view](/assets/guides/high-efficiency-formats/select-video.png)
 3. Swipe up
+![Swipe up gesture on photo](/assets/guides/high-efficiency-formats/swipe-up-video.png)
 4. Check codec info
+![Video codec info](/assets/guides/high-efficiency-formats/codec-info.png)
 
 ## Converting Existing Photos
 

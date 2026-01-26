@@ -34,14 +34,17 @@ Video files are the **biggest storage hogs** on your device:
 ### 1. Open Settings
 
 Tap **Settings** on your home screen.
+![Settings icon on home screen](/assets/guides/ios_settings_example.png)
 
 ### 2. Go to Camera
 
 Scroll down and tap **Camera**.
+![Camera settings option](/assets/guides/camera-settings/camera.png)
 
 ### 3. Tap Record Video
 
 Tap **Record Video**.
+![Record Video settings screen](/assets/guides/video-recording-quality/record-video.png)
 
 ### 4. Choose Your Video Quality
 
@@ -52,6 +55,7 @@ Select from available options (varies by device):
 - 4K at 24 fps
 - 4K at 30 fps
 - 4K at 60 fps
+![Video quality options](/assets/guides/video-recording-quality/record-video-screen.png)
 
 ### 5. Choose Slow-Mo Quality (Optional)
 
@@ -59,6 +63,8 @@ Tap **Record Slo-mo** and select:
 - 1080p at 120 fps (Recommended)
 - 1080p at 240 fps
 - 4K at 120 fps (iPhone 13 Pro and later)
+![Slo-mo recording](/assets/guides/video-recording-quality/record-slo-mo.png)
+![Slo-mo recording options](/assets/guides/video-recording-quality/record-slo-mo-screen.png)
 
 ✅ **Done!** New videos will use your selected quality.
 
@@ -154,6 +160,7 @@ You can change quality anytime:
 
 Combine with HEVC (High Efficiency) format for 40% additional savings:
 - Settings > Camera > Formats > High Efficiency
+![Formats Screen](/assets/guides/video-recording-quality/high-efficiency.png)
 
 ### Cloud Storage
 
