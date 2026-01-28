@@ -35,18 +35,23 @@ Location Services uses GPS, Bluetooth, Wi-Fi, and cellular to determine your loc
 ### 1. Open Settings
 
 Tap **Settings** on your home screen.
+![Settings icon on home screen](/assets/guides/ios_settings_example.png)
 
 ### 2. Go to Privacy & Security
 
 Tap **Privacy & Security** (or just **Privacy** on older iOS).
+![Privacy and Security settings](/assets/guides/location-services/privacy-security.png)
 
 ### 3. Tap Location Services
 
 Tap **Location Services** at the top.
+![Location Services menu](/assets/guides/location-services/location-services.png)
 
 ### 4. Review App Permissions
 
 Scroll through the list and tap each app to adjust its location access.
+![App location permissions list](/assets/guides/location-services/app.png)
+![App location permissions list](/assets/guides/location-services/app-permissions.png)
 
 ## Location Permission Options
 
@@ -194,8 +199,11 @@ Location Services battery usage:
 To turn off all location services:
 
 1. Settings > Privacy > Location Services
+![Location Services main toggle](/assets/guides/location-services/location-services.png)
 2. Toggle off **Location Services** at the top
-3. Confirm
+![Location Services toggle off](/assets/guides/location-services/toggle-off.png)
+3. Tap **Turn Off** to confirm
+![Confirm turn off location services](/assets/guides/location-services/turn-off.png)
 
 **Warning:** This disables Find My iPhone, navigation, and all location features.
 
