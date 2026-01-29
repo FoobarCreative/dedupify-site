@@ -78,11 +78,6 @@ Notifications appear instantly.
 
 Notifications arrive in a scheduled bundle.
 
-**How to enable:**
-1. Tap an app in Notifications
-2. Scroll to **Notification Grouping**
-3. Select **In Scheduled Summary**
-
 **Configure summary times:**
 1. Settings > Notifications > Scheduled Summary
 ![Scheduled summary](/assets/guides/notifications/scheduled-summary.png)
@@ -206,10 +201,6 @@ Allow certain apps to bypass Do Not Disturb and Focus modes.
 - Home security
 - Critical work apps
 
-**Enable:**
-1. Settings > Notifications > [App]
-2. Toggle on **Critical Alerts**
-
 ### Notification Previews
 
 Control what shows in notifications:
@@ -248,18 +239,6 @@ Control how notifications from the same app are grouped:
 **Off**
 - Each notification separate
 - Use for important, low-volume apps
-
-## How Many Notifications Is Too Many?
-
-**Recommended daily notifications:**
-- 0-20: Optimal
-- 20-50: Moderate
-- 50-100: High (consider reducing)
-- 100+: Excessive (definitely reduce)
-
-**Check your count:**
-1. Settings > Screen Time > See All Activity
-2. Scroll to **Notifications**
 
 ## Quick Notification Management
 
