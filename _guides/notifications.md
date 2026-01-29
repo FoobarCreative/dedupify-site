@@ -39,14 +39,17 @@ Excessive notifications can:
 ### 1. Open Settings
 
 Tap **Settings** on your home screen.
+![Settings icon on home screen](/assets/guides/ios_settings_example.png)
 
 ### 2. Go to Notifications
 
 Tap **Notifications**.
+![Notifications settings](/assets/guides/notifications/notifications.png)
 
 ### 3. Review Each App
 
 Scroll through the list and tap each app to configure its notification settings.
+![App notifications list](/assets/guides/notifications/app.png)
 
 ### 4. Adjust Notification Options
 
@@ -58,6 +61,7 @@ For each app, you can control:
 - Badge App Icon
 - Sounds
 - Critical Alerts
+![Notification options](/assets/guides/notifications/notification-options.png)
 
 ## Notification Delivery Options
 
@@ -81,7 +85,11 @@ Notifications arrive in a scheduled bundle.
 
 **Configure summary times:**
 1. Settings > Notifications > Scheduled Summary
-2. Choose delivery times (e.g., 9 AM and 6 PM)
+![Scheduled summary](/assets/guides/notifications/scheduled-summary.png)
+2. Set up the delivery times (e.g., 9 AM and 6 PM)
+![Scheduled summary times](/assets/guides/notifications/choose-apps.png)
+![Scheduled summary times](/assets/guides/notifications/add-app.png)
+![Scheduled summary times](/assets/guides/notifications/turn-on.png)
 
 **Best for:**
 - Social media
@@ -175,8 +183,11 @@ Create custom Focus modes to filter notifications:
 
 1. Settings > Focus
 2. Choose or create a Focus (Work, Personal, Sleep)
+![Choose Focus](/assets/guides/notifications/focus.png)
 3. Configure allowed apps and people
+![Configure](/assets/guides/notifications/focus-configuration.png)
 4. Schedule or enable manually
+![Schedule](/assets/guides/notifications/schedule.png)
 
 **Pre-configured modes:**
 - Do Not Disturb
@@ -204,10 +215,12 @@ Allow certain apps to bypass Do Not Disturb and Focus modes.
 Control what shows in notifications:
 
 1. Settings > Notifications > Show Previews
+![Show previews](/assets/guides/notifications/show-previews.png)
 2. Choose:
    - **Always**: Show message content
    - **When Unlocked**: Only when device unlocked
    - **Never**: Never show content
+![Notification previews](/assets/guides/notifications/when-unlocked.png)
 
 **Recommendation:** "When Unlocked" for best balance of privacy and convenience.
 
@@ -253,10 +266,12 @@ Control how notifications from the same app are grouped:
 **From Lock Screen or Notification Center:**
 1. Swipe left on a notification
 2. Tap **Options** or **...**
+![Quick notification options](/assets/guides/notifications/options.png)
 3. Choose:
-   - Turn Off for 1 Hour
-   - Turn Off for Today
+   - Mute for 1 Hour
+   - Mute for Today
    - Settings (go to app notification settings)
+![Quick notification options](/assets/guides/notifications/options-configuration.png)
 
 ## Our Recommendation
 
