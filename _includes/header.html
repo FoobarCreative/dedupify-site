@@ -19,9 +19,17 @@
 	</div>
 	<nav class="scroll">
 		<ul>
-			{% for page in site.pages %}
-				{% if page.include_in_header == true %}
-				<li><a href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a></li>
+			{% assign current_url = page.url %}
+			{% assign is_home = page.url == '/' %}
+			{% if page.url == '/index.html' or page.path == 'index.html' %}
+				{% assign is_home = true %}
+			{% endif %}
+			{% for nav_page in site.pages %}
+				{% if nav_page.include_in_header == true and nav_page.url != current_url %}
+					{% if nav_page.title == 'Guides' and is_home != true %}
+					{% else %}
+					<li><a href="{{ nav_page.url | relative_url }}" target="_self">{{ nav_page.title }}</a></li>
+					{% endif %}
 				{% endif %}
 			{% endfor %}
 			{% if site.presskit_download_link %}
