@@ -5,56 +5,67 @@ include_in_header: false
 ---
 
 **Last updated**  
-August 1 2019
+February 3, 2026
 
 # Privacy Policy
-Submissive a when owing much far bawdy thanks impolitely alas overlaid one and this one chuckled darn on more due much misheard amused far far the much purposeful that wildebeest dalmatian and piranha bluebird this and much despite however much sincere nonsensical this paradoxically more.
-
-**Please note:** This is purely a dummy Privacy Policy that serves as an example for how you can use this app landing page generator. Please replace the contents with your own privacy policy.
+This Privacy Policy describes how Dedupify (the "App") and the dedupify.app website (the "Site") handle information. Dedupify searches your phone for duplicate photos and calendar events to help free up space. Dedupify is produced by Foobar Creative. We are committed to protecting your privacy and handling information responsibly.
 
 <br>
 
-## 1.0 Information We Collect
-Far near but lighted walking far oyster hello kneeled flung and roadrunner and more witless narrowly flexed brokenly blandly much in famous jeez obsessive that.
+## 1. Information We Collect
 
-### 1.1 Information from third parties
-- Ouch until smirked some some newt that at frustrating.
-- Nimbly handsomely fabulously python.
-- Alas informally taped when a dear some.
+### 1.1 Information you provide
+- **Support requests:** If you contact us, we collect the information you provide (such as your email address and message content) so we can respond.
 
-### 1.2 Information you provide to us 
-Menacingly much walrus far together derisive falcon the toneless unceremoniously yet yikes a hung when because far drooled cast amused naughtily quiet hare a thickly more dogged drank more this dismounted since hence nakedly jeez rolled far gerbil the hey puerilely where vociferously struck insane much twitched instead some beneath then wiped dull snuffed far jeez nightingale bit goodness obscurely quit that much yet nefarious careless some concrete shrewdly gull closed this hugged aboard.
+### 1.2 Information collected automatically
+- **App diagnostics and usage:** The App may collect non-personally identifiable information such as device locale, app version, operating system version, identifiers, usage data, and crash logs to help us improve performance and fix issues.
+- **Purchases:** If you make an in-app purchase or subscription, Apple processes the payment. We receive confirmation of your purchase status and may receive information needed to validate purchases, but we do not receive your payment card details. Purchases may be linked to your identity, while identifiers, usage data, and diagnostics may be collected but are not linked to you.
+- **Site analytics (if enabled):** The Site may collect standard log information (such as IP address, browser type, and pages visited) and/or use cookies for analytics.
 
-<br>
+### 1.3 Content access inside the App
+Dedupify requests access to your Photos library and Calendars so it can find duplicates and let you review and delete them. Any deletion happens only when you confirm it.
 
-## 2.0 What Personal Information we collect about you and how we collect it
-Where cut one reproachful alas ambiguous helpful hen raucous editorial underwrote dubiously therefore this boastfully or possessively oh modest amidst some opposite far wasp grew emu snickered some jeepers and circa much that *equitable* foul camel caudally oh opossum far dear met far much close hello beheld facetious far goodness tidily reindeer that kiwi thus crud that paid and by titilatingly hey falcon lemming or well approving sympathetically groundhog mongoose and deeply peaceful wow ouch far regally this and near and badly fatal blunt mischievously and and the blew.
-
-### 2.1 Third Parties we collect information from
-Various remotely save this querulously explicitly one this and far congenially broad grew said or abhorrently haltered darn beheld panther shrank and one goldfish the more away as much different moth.
-
-| Third Party | What is it used for? |
-| :--- | :--- |
-| Falcon | Tidily reindeer that kiwi thus crud that paid and by titilatingly hey falcon lemming. |
-| Eagle | Juggled crud a however overslept vehemently kept indisputably anteater walked alas or into. |
+### 1.4 Information from third parties
+We may use third-party service providers (such as analytics or crash reporting tools) to help us understand usage and improve the App. These providers may process data described above on our behalf.
 
 <br>
 
-## 3.0 What rights do you, as the data subject, have
-This goodness well well and more cowardly lynx credibly more apart save and less oh examined ouch marginal growled and proper liberally salmon busy some while pointed far because understood.
-
-1. Boastfully or possessively oh modest amidst.
-2. Far far the much purposeful that wildebeest dalmatian.
-3. Adamant or pushed less far overthrew.
-
-All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+## 2. How We Use Information
+We use information to:
+- Provide and operate the App and Site.
+- Improve functionality, performance, and reliability.
+- Respond to support requests.
+- Understand usage trends and fix bugs.
 
 <br>
 
-## 4.0 How we store and secure the Personal Information we collect
-Worm where gravely behind logically far in tastefully as alas delicately before well darn then far the much pulled red-handed circa much much far pangolin spelled much clung dachshund smirked close some the adamant or pushed less far overthrew in moth begrudging warthog newt pragmatic bent darn and far needlessly notwithstanding angrily as celestially horse rebuking magnanimous dear inscrutably jeepers listless before saucy this much however and wolf dear cringed crab a wanton jeepers flatteringly characteristically a atrocious and returned more lemming robin let some crud that more secure nimble where soundly pitiful because bombastic much.
+## 3. Sharing of Information
+We do not sell your personal information. We may share information:
+- With trusted service providers who help us operate and improve the App or Site, and who are bound to protect it.
+- With Apple for processing in-app purchases and subscriptions.
+- When required by law, regulation, or legal process.
 
 <br>
 
-## 5.0 Information processing and transfers for EEA individuals
-Cracked a more and iguana a without some echidna a abnormal hello and beat thanks jeepers gnu jeepers until up depending for drooled awfully angelfish relentless much a well wasp some in impala darn and overate greedily wow kookaburra beneath much wistful fluid until and lemming less armadillo redoubtable after much capybara wow that hence interbred timorous loosely oh.
+## 4. Data Retention
+We retain information only as long as needed to provide the App or Site, comply with legal obligations, resolve disputes, and enforce our agreements. Support emails are retained for customer service purposes and can be deleted upon request.
+
+<br>
+
+## 5. Your Choices and Rights
+You can:
+- **Revoke permissions** for Photos or Calendars in iOS settings. Note that doing so may limit App functionality.
+- **Access or delete** your personal information by contacting us.
+- **Manage subscriptions** through your Apple ID account settings.
+
+If you are in Australia, we are bound by the Privacy Act 1988 (Cth) and you may have additional rights under that law.
+
+<br>
+
+## 6. Changes to This Privacy Policy
+We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated "Last updated" date. Changes apply only to information collected after the effective date of the change.
+
+<br>
+
+## 7. Contact Us
+If you have questions about this Privacy Policy or want to request access or deletion of your information, please contact us via the support email listed in the App or on the Site.
