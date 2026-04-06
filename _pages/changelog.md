@@ -2,6 +2,8 @@
 layout: page
 title: What's New
 include_in_header: false
+published: false
+sitemap: false
 ---
 
 # Changelog
