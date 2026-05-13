@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /guides/clear-safari-cache/
 title: "How to Clear Safari Cache and Website Data on iPhone & iPad"
 short_title: "Clear Safari Cache"
 description: "Clear browsing data and cached files from Safari to free up storage space on your iPhone or iPad."

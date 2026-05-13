@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /guides/icloud-photo-storage/
 title: "How to Optimize iPhone & iPad Storage with iCloud Photos"
 short_title: "Optimize iPhone Storage"
 description: "Store full photos in iCloud and save up to 50GB of space on your device. Step-by-step guide with screenshots."

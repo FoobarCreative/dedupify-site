@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /guides/camera-settings/
 title: "How to Optimize Camera Settings on iPhone & iPad"
 short_title: "Camera Settings"
 description: "Optimize camera quality and performance to balance photo quality with storage usage."

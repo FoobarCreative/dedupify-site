@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /guides/background-app-refresh/
 title: "How to Manage Background App Refresh on iPhone & iPad"
 short_title: "Background App Refresh"
 description: "Control which apps refresh in the background to save battery and data usage."

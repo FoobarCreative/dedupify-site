@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /guides/notifications/
 title: "How to Manage Notifications on iPhone & iPad"
 short_title: "Notifications"
 description: "Control app notification settings to reduce distractions and save battery life."

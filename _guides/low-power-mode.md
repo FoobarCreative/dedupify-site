@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /guides/low-power-mode/
 title: "How to Enable Low Power Mode on iPhone & iPad"
 short_title: "Low Power Mode"
 description: "Reduce power consumption when battery is low by enabling Low Power Mode to extend battery life."

@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /guides/clear-recently-deleted/
 title: "How to Clear Recently Deleted Photos on iPhone & iPad"
 short_title: "Clear Recently Deleted"
 description: "Permanently delete photos and videos from your Recently Deleted album to free up storage immediately."

@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /guides/adaptive-power-mode/
 title: "How to Enable Optimized Battery Charging on iPhone & iPad"
 short_title: "Adaptive Power Mode"
 description: "Intelligently extends battery life and lifespan based on your usage patterns with machine learning."

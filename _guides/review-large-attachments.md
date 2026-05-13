@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /guides/review-large-attachments/
 title: "How to Find and Delete Large Attachments on iPhone & iPad"
 short_title: "Review Large Attachments"
 description: "Find and delete large files from Messages and Mail to free up storage quickly."

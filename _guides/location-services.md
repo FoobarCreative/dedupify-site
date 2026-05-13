@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /guides/location-services/
 title: "How to Manage Location Services on iPhone & iPad"
 short_title: "Location Services"
 description: "Manage which apps can access your location to save battery and protect privacy."

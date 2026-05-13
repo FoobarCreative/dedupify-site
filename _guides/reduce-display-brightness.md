@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /guides/reduce-display-brightness/
 title: "How to Reduce Display Brightness on iPhone & iPad"
 short_title: "Display Brightness"
 description: "Lower brightness to save battery and reduce eye strain on your iPhone or iPad."

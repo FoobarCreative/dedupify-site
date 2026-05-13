@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /guides/offload-unused-apps/
 title: "How to Offload Unused Apps on iPhone & iPad"
 short_title: "Offload Unused Apps"
 description: "Remove apps you don't use while keeping their data. Easily reinstall later without losing settings or documents."

@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /guides/video-recording-quality/
 title: "How to Adjust Video Recording Quality on iPhone & iPad"
 short_title: "Video Recording Quality"
 description: "Reduce video quality to save storage space without sacrificing too much visual quality."
