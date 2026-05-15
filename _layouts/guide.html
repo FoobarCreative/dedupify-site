@@ -48,7 +48,7 @@
                 {% if page.settings_url %}
                 <div style="margin-bottom: 2em;">
                     <a href="{{ page.settings_url }}" class="btn" style="display: inline-block; background: {{ site.default_primary }}; color: white; padding: 0.75em 1.5em; border-radius: 8px; text-decoration: none; font-weight: bold;">
-                        Open Settings →
+                        {{ page.cta_label | default: 'Open Settings →' }}
                     </a>
                     <p style="font-size: 0.85em; color: #888; margin-top: 0.5em;">Or follow the steps below manually</p>
                 </div>

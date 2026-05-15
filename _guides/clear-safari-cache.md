@@ -5,7 +5,6 @@ title: "How to Clear Safari Cache and Website Data on iPhone & iPad"
 short_title: "Clear Safari Cache"
 description: "Clear browsing data and cached files from Safari to free up storage space on your iPhone or iPad."
 category: "Storage Optimization"
-settings_url: "App-prefs:SAFARI"
 priority: 4
 estimated_savings: "500MB-5GB"
 difficulty: "Easy"

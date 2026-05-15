@@ -5,7 +5,6 @@ title: "How to Manage Notifications on iPhone & iPad"
 short_title: "Notifications"
 description: "Control app notification settings to reduce distractions and save battery life."
 category: "Performance"
-settings_url: "App-prefs:NOTIFICATIONS_ID"
 priority: 14
 difficulty: "Easy"
 time_required: "5 minutes"

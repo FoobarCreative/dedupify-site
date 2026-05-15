@@ -6,6 +6,7 @@ short_title: "Clear Recently Deleted"
 description: "Permanently delete photos and videos from your Recently Deleted album to free up storage immediately."
 category: "Storage Optimization"
 settings_url: "photos-redirect://"
+cta_label: "Open Photos →"
 priority: 5
 estimated_savings: "1-10GB"
 difficulty: "Easy"

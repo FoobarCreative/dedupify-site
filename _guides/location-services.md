@@ -5,7 +5,6 @@ title: "How to Manage Location Services on iPhone & iPad"
 short_title: "Location Services"
 description: "Manage which apps can access your location to save battery and protect privacy."
 category: "Performance"
-settings_url: "App-prefs:Privacy&path=LOCATION"
 priority: 13
 difficulty: "Easy"
 time_required: "3 minutes"

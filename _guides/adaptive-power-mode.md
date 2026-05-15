@@ -5,7 +5,6 @@ title: "How to Enable Optimized Battery Charging on iPhone & iPad"
 short_title: "Adaptive Power Mode"
 description: "Intelligently extends battery life and lifespan based on your usage patterns with machine learning."
 category: "Battery & Power"
-settings_url: "App-prefs:BATTERY_USAGE"
 priority: 6
 difficulty: "Easy"
 time_required: "1 minute"

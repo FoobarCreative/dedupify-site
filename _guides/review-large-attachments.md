@@ -5,7 +5,6 @@ title: "How to Find and Delete Large Attachments on iPhone & iPad"
 short_title: "Review Large Attachments"
 description: "Find and delete large files from Messages and Mail to free up storage quickly."
 category: "Storage Optimization"
-settings_url: "App-prefs:General&path=STORAGE_MGMT"
 priority: 3
 estimated_savings: "2-15GB"
 difficulty: "Easy"

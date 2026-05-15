@@ -5,7 +5,6 @@ title: "How to Reduce Display Brightness on iPhone & iPad"
 short_title: "Display Brightness"
 description: "Lower brightness to save battery and reduce eye strain on your iPhone or iPad."
 category: "Battery & Power"
-settings_url: "App-prefs:DISPLAY"
 priority: 9
 difficulty: "Easy"
 time_required: "30 seconds"

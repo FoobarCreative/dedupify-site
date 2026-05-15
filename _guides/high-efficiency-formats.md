@@ -5,7 +5,6 @@ title: "How to Enable High Efficiency Formats (HEIF/HEVC) on iPhone & iPad"
 short_title: "High Efficiency Formats"
 description: "Use efficient HEIF and HEVC formats to reduce photo and video file sizes by up to 50%."
 category: "Camera & Media"
-settings_url: "App-prefs:CAMERA"
 priority: 12
 difficulty: "Easy"
 time_required: "30 seconds"

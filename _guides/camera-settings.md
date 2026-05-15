@@ -5,7 +5,6 @@ title: "How to Optimize Camera Settings on iPhone & iPad"
 short_title: "Camera Settings"
 description: "Optimize camera quality and performance to balance photo quality with storage usage."
 category: "Camera & Media"
-settings_url: "App-prefs:CAMERA"
 priority: 10
 difficulty: "Easy"
 time_required: "2 minutes"

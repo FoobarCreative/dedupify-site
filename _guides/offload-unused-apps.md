@@ -5,7 +5,6 @@ title: "How to Offload Unused Apps on iPhone & iPad"
 short_title: "Offload Unused Apps"
 description: "Remove apps you don't use while keeping their data. Easily reinstall later without losing settings or documents."
 category: "Storage Optimization"
-settings_url: "App-prefs:General&path=STORAGE_MGMT"
 priority: 2
 estimated_savings: "5-20GB"
 difficulty: "Easy"

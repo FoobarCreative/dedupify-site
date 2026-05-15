@@ -5,7 +5,6 @@ title: "How to Manage Background App Refresh on iPhone & iPad"
 short_title: "Background App Refresh"
 description: "Control which apps refresh in the background to save battery and data usage."
 category: "Battery & Power"
-settings_url: "App-prefs:General&path=AUTO_CONTENT_DOWNLOAD"
 priority: 8
 difficulty: "Easy"
 time_required: "2 minutes"
