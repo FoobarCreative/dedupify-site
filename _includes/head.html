@@ -8,6 +8,9 @@
 	<meta name="description" content="{{ site.app_description }}">
 	<link rel="canonical" href="{{ page.url | absolute_url }}">
 
+	<!-- Favicons (helps Google show the site icon in search results) -->
+	<link rel="icon" type="image/png" href="{{ site.app_icon | relative_url }}">
+	<link rel="apple-touch-icon" href="{{ site.app_icon | relative_url }}">
 	<link rel="shortcut icon" href="{{ site.app_icon | relative_url }}">
 
 	<!-- Smart App Banner -->
@@ -33,6 +36,54 @@
 	<meta name="twitter:image:alt" content="{{ page.og_image_alt | default: 'My Awesome Site' }}">
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<!-- Structured data (Schema.org) — gives Google richer signals for search results -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@graph": [
+			{
+				"@type": "WebSite",
+				"@id": "{{ '/' | absolute_url }}#website",
+				"url": "{{ '/' | absolute_url }}",
+				"name": {{ site.app_name | jsonify }},
+				"description": {{ site.app_description | jsonify }},
+				"publisher": { "@id": "{{ '/' | absolute_url }}#organization" }
+			},
+			{
+				"@type": "Organization",
+				"@id": "{{ '/' | absolute_url }}#organization",
+				"name": {{ site.your_name | jsonify }},
+				"url": {{ site.your_link | jsonify }},
+				"logo": {
+					"@type": "ImageObject",
+					"url": "{{ site.app_icon | absolute_url }}"
+				}
+			},
+			{
+				"@type": "SoftwareApplication",
+				"name": {{ site.app_name | jsonify }},
+				"description": {{ site.app_description | jsonify }},
+				"url": "{{ '/' | absolute_url }}",
+				"applicationCategory": {{ site.app_category | default: 'UtilitiesApplication' | jsonify }},
+				"operatingSystem": "iOS",
+				"image": "{{ site.app_icon | absolute_url }}",
+				"downloadUrl": "https://apps.apple.com/{{ site.ios_app_country }}/app/id{{ site.ios_app_id }}",
+				"offers": {
+					"@type": "Offer",
+					"price": "0",
+					"priceCurrency": "USD"
+				},{% if site.app_rating_value and site.app_rating_count %}
+				"aggregateRating": {
+					"@type": "AggregateRating",
+					"ratingValue": "{{ site.app_rating_value }}",
+					"ratingCount": "{{ site.app_rating_count }}"
+				},{% endif %}
+				"publisher": { "@id": "{{ '/' | absolute_url }}#organization" }
+			}
+		]
+	}
+	</script>
+
 	<link rel="stylesheet" href="{{ '/main.css' | relative_url }}">
 
 	<!-- In-app view detection -->

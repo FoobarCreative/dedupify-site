@@ -21,6 +21,7 @@ app_description                           : |
   Dedupify helps you reclaim storage space by identifying and removing unwanted duplicate photos and calendar events.
   Group similar images and delete the ones you don't want to keep, freeing up precious space on your device and in the cloud.
 
+app_category                              : MultimediaApplication                     # Schema.org applicationCategory for structured data (e.g. UtilitiesApplication, MultimediaApplication, DesignApplication, LifestyleApplication, BrowserApplication).
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
 og_image                                  : assets/og_image.jpg                       # The default open graph image
