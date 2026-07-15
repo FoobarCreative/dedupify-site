@@ -86,11 +86,20 @@
 
 	<link rel="stylesheet" href="{{ '/main.css' | relative_url }}">
 
-	<!-- In-app view detection -->
+	<!-- In-app view detection: ?inapp=true hides the site chrome (persists across in-app navigation) -->
 	<script>
 		(function() {
-			if (window.location.search.includes('inapp=true')) {
-				document.documentElement.classList.add('in-app-view');
+			try {
+				if (window.location.search.indexOf('inapp=true') !== -1) {
+					sessionStorage.setItem('inapp', 'true');
+				}
+				if (sessionStorage.getItem('inapp') === 'true') {
+					document.documentElement.classList.add('in-app-view');
+				}
+			} catch (e) {
+				if (window.location.search.indexOf('inapp=true') !== -1) {
+					document.documentElement.classList.add('in-app-view');
+				}
 			}
 		})();
 	</script>
