@@ -1,5 +1,5 @@
 #page title
-page_title                                : Dedupify                                  # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : "Dedupify: Duplicate Photo Cleaner & Storage Cleaner"                                  # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # Site URL (required for sitemap)
 url                                       : https://www.dedupify.app

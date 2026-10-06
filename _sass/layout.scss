@@ -284,6 +284,14 @@ nav > ul li a:active {
 	color: $app-title-color;
 }
 
+.appHeadline {
+	display: block;
+	font-size: 0.67em;
+	font-weight: normal;
+	line-height: 1.3;
+	margin-top: 8px;
+}
+
 .appPrice {
 	color: $app-price-color;
 	font-weight: normal;
