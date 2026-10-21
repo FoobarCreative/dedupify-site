@@ -11,7 +11,7 @@ difficulty: "Easy"
 time_required: "1 minute"
 ios_version: "iOS 8+"
 date: 2026-01-09
-last_updated: 2026-01-09
+last_updated: 2026-10-06
 item_id: "clear_safari_cache"
 
 related:

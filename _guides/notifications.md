@@ -10,7 +10,7 @@ difficulty: "Easy"
 time_required: "5 minutes"
 ios_version: "iOS 7+"
 date: 2026-01-09
-last_updated: 2026-01-09
+last_updated: 2026-10-06
 item_id: "notifications"
 
 related:

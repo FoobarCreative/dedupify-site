@@ -10,7 +10,7 @@ difficulty: "Easy"
 time_required: "30 seconds"
 ios_version: "iOS 7+"
 date: 2026-01-09
-last_updated: 2026-01-09
+last_updated: 2026-10-06
 item_id: "reduce_display_brightness"
 
 related:

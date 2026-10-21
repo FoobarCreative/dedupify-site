@@ -10,7 +10,7 @@ difficulty: "Easy"
 time_required: "2 minutes"
 ios_version: "iOS 7+"
 date: 2026-01-09
-last_updated: 2026-01-09
+last_updated: 2026-10-06
 item_id: "background_app_refresh"
 
 related:

@@ -11,7 +11,7 @@ difficulty: "Easy"
 time_required: "2 minutes"
 ios_version: "iOS 8.1+"
 date: 2026-01-09
-last_updated: 2026-01-09
+last_updated: 2026-10-06
 item_id: "optimize_photos_storage"
 
 # Related guides

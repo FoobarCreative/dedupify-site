@@ -10,7 +10,7 @@ difficulty: "Easy"
 time_required: "1 minute"
 ios_version: "iOS 9+"
 date: 2026-01-09
-last_updated: 2026-01-09
+last_updated: 2026-10-06
 item_id: "video_recording_quality"
 
 related:

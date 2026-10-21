@@ -11,7 +11,7 @@ difficulty: "Easy"
 time_required: "3 minutes"
 ios_version: "iOS 11+"
 date: 2026-01-09
-last_updated: 2026-01-09
+last_updated: 2026-10-06
 item_id: "offload_unused_apps"
 
 related:
