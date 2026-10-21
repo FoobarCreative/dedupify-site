@@ -38,13 +38,22 @@ def split_front_matter(text):
 def parse_front_matter(raw):
     if yaml is not None:
         return yaml.safe_load(raw) or {}
-    # Minimal fallback: scalars and simple lists only.
+    # Minimal fallback without PyYAML: scalars, lists of scalars, and lists of flat maps.
     data, key = {}, None
     for line in raw.splitlines():
         if not line.strip() or line.lstrip().startswith("#"):
             continue
         if line.startswith("  - ") and key:
-            data.setdefault(key, []).append(line[4:].strip().strip('"'))
+            item = line[4:].strip()
+            if ":" in item:
+                k, _, v = item.partition(":")
+                data.setdefault(key, []).append({k.strip(): v.strip().strip('"')})
+            else:
+                data.setdefault(key, []).append(item.strip('"'))
+            continue
+        if line.startswith("    ") and key and isinstance(data.get(key), list) and data[key] and isinstance(data[key][-1], dict):
+            k, _, v = line.strip().partition(":")
+            data[key][-1][k.strip()] = v.strip().strip('"')
             continue
         if ":" in line and not line.startswith(" "):
             key, _, val = line.partition(":")
