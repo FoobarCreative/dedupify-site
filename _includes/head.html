@@ -6,7 +6,9 @@
 
 	{% assign title_brand = site.app_name | default: site.page_title %}
 	<title class="pageTitle">{% if page.title %}{{ page.title }}{% if title_brand and title_brand != '' %} · {{ title_brand }}{% endif %}{% else %}{{ site.page_title }}{% endif %}</title>
-	<meta name="description" content="{{ page.description | default: site.app_description | strip_newlines | strip }}">
+	{% assign meta_description = page.description %}
+	{% if meta_description == nil or meta_description == '' %}{% if page.url == '/' %}{% assign meta_description = site.app_description %}{% else %}{% capture meta_description %}{{ page.title }} for {{ site.app_name | default: site.page_title }}.{% endcapture %}{% endif %}{% endif %}
+	<meta name="description" content="{{ meta_description | strip_newlines | strip }}">
 	<link rel="canonical" href="{{ page.url | absolute_url }}">
 
 	<!-- Favicons (helps Google show the site icon in search results) -->
@@ -21,7 +23,7 @@
 
 	<!-- Open Graph -->
 	<meta property="og:title" content="{{ page.og_title | default: site.page_title }}">
-	<meta property="og:description" content="{{ page.og_description | default: site.app_description }}">
+	<meta property="og:description" content="{{ page.og_description | default: meta_description | strip_newlines | strip }}">
 	<meta property="og:url" content="{{ page.url | absolute_url }}">
 	<meta property="og:type" content="{{ page.og_type | default: 'website' }}">
 	<meta property="og:site_name" content="{{ site.site_name }}">
@@ -32,7 +34,7 @@
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@{{ site.twitter_username }}">
 	<meta name="twitter:title" content="{{ page.og_title | default: site.page_title }}">
-	<meta name="twitter:description" content="{{ page.og_description | default: site.app_description }}">
+	<meta name="twitter:description" content="{{ page.og_description | default: meta_description | strip_newlines | strip }}">
 	<meta name="twitter:image" content="{{ page.og_image | default: site.og_image | absolute_url }}">
 	<meta name="twitter:image:alt" content="{{ page.og_image_alt | default: site.page_title }}">
 
