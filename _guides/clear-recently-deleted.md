@@ -7,7 +7,7 @@ description: "Permanently delete photos and videos from your Recently Deleted al
 category: "Storage Optimization"
 settings_url: "photos-redirect://"
 cta_label: "Open Photos →"
-priority: 6
+priority: 7
 estimated_savings: "1-10GB"
 difficulty: "Easy"
 time_required: "1 minute"
